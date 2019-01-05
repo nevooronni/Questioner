@@ -60,6 +60,10 @@ nav h1 {
   margin-top: 0px;
 }
 
+#control-panel a {
+  text-decoration: none;
+}
+
 #admin {
   color: #fff;
   background-color: #e7015e;
