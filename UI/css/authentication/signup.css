@@ -22,6 +22,10 @@ body nav span {
   font-weight: bold;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 nav h1 {
   color: #ffffff;
   font-weight: bold;
@@ -261,7 +265,7 @@ button:hover {
   }
 
   #register-login {
-    width: 45%
+    width: 45%;
   }
 
   #register-form {
