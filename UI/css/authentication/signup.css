@@ -22,6 +22,10 @@ body nav span {
   font-weight: bold;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 nav h1 {
   color: #ffffff;
   font-weight: bold;
@@ -241,4 +245,32 @@ button:hover {
   .column {
     width: 100%;
   }
+
+  #register-start {
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+  .register-heading {
+    text-align: center;
+  }
+
+  #control-panel {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  #admin {
+    width: 45%;
+  }
+
+  #register-login {
+    width: 45%;
+  }
+
+  #register-form {
+    width: 93%;
+    left: 3%;
+  }
+
 }
