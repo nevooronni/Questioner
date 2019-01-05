@@ -42,6 +42,10 @@ Testing
     ```
     Questioner
     ```
+- Switch to gh-pages branch 
+    ```
+    git checkout gh-pages
+    ```
 - Open the index.html file
 - Navigate the site using it's link to experience it's stated features
 
