@@ -3,17 +3,104 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--stylesheet-->
-    <link href="../css/meetups/meetups.css" rel="stylesheet" type="text/css">
+    <link href="../../css/meetups/meetups.css" rel="stylesheet" type="text/css">
     
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
   </head>
   <body>
     <!--navbar-->
-    <nav>
-      <h1><span>Q</span>uestioner</h1>
-    </nav>
-    <div>
+    <div id="jumbotron">
+        <a href="../index.html"><h2 id="Q"><span>Q</span>uestioner</h2></a>
+      <h3 id="adminq">Admin</h3>
+      <img src="../../img/reddeadredemption.jpg" alt="avatar" />
+      <div class="center">
+        <p>Checkout all the upcoming events below</p>
+        <h1>Where Thinkers Meet Up</h1>
+        <hr>
+        <!-- The Modal -->
+          <button id="myBtn">Create Meetup</button>
+
+          <div id="myModal" class="modal">
+
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Some text in the Modal..</p>
+            </div>
+
+          </div>
+        </div>
     </div>
+    <div id="meetups-container">
+      <h1>Upcoming Events</h1>
+      <div class="card">
+          <img src="../../img/reddeadredemption.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+            <p>Tuesday, January 08, 5.00 PM</p>
+            <h4><b>End Of Month Meetup</b></h4> 
+            <div class="details">
+              <img src="../../img/tarmacnomoresv.jpg" alt="avatar" />
+              <p>Hosted by <span>Lilian Nditu</span></p> 
+            </div>
+          </div>
+      </div>
+      <div class="card">
+          <img src="../../img/nairobi.jpeg" alt="Avatar" style="width:100%">
+          <div class="container">
+            <p>Thurday, January 10, 5.00 PM</p>
+            <h4><b>Monthy Planning Meeting</b></h4> 
+            <div class="details">
+              <img src="../../img/tesla.jpg" alt="avatar" />
+              <p>Hosted by <span>James Kirwa</span></p> 
+            </div>
+          </div>
+      </div>
+      <div class="card">
+          <img src="../../img/road.jpeg" alt="Avatar" style="width:100%">
+          <div class="container">
+            <p>Wednesday, January 09, 5.00 PM</p>
+            <h4><b>Goal setting Meetup</b></h4> 
+            <div class="details">
+              <img src="../../img/saf.png" alt="avatar" />
+              <p>Hosted by <span>Allan Juma</span></p> 
+            </div>
+          </div>
+      </div>
+      <div class="card">
+          <img src="../../img/project.jpeg" alt="Avatar" style="width:100%">
+          <div class="container">
+            <p>Friday, January 16, 5.00 PM</p>
+            <h4><b>Social Meetup</b></h4> 
+            <div class="details">
+              <img src="../../img/left.jpg" alt="avatar" />
+              <p>Hosted by <span>Eugene Oronni</span></p> 
+            </div>
+          </div>
+      </div>
+      <div class="card">
+          <img src="../../img/meetup.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+            <p>Tuesday, January 27, 5.00 PM</p>
+            <h4><b>MVP Presentations Meetup</b></h4> 
+            <div class="details">
+              <img src="../../img/left2.jpg" alt="avatar" />
+              <p>Hosted by <span>Frank Ekirapa</span></p> 
+            </div>
+          </div>
+      </div>
+      <div class="card">
+          <img src="../../img/banner6.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+            <p>Tuesday, Febraury 08, 5.00 PM</p>
+            <h4><b>Public Speaking Meetup</b></h4> 
+            <div class="details">
+              <img src="../../img/buzz.jpg" alt="avatar" />
+              <p>Hosted by <span>Nigel Jones</span></p> 
+            </div>
+          </div>
+      </div>
+    </div>
+    <!--custom javascript-->
+    <script src="../../js/script.js" ></script>
   </body>
 </html>
