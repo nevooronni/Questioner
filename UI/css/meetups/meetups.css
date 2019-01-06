@@ -321,11 +321,16 @@ form input {
 
 #signupbtn2 {
   background-color: #e7015e;
-  border: #e7015e; 
+  border: 2px solid #e7015e; 
   color: #ffffff;
   position: relative;
   top: 1%;
   left: 33.3%;
+}
+
+#signupbtn2:hover {
+  background-color: #2d6ff7;
+  border: 2px solid #2d6ff7; 
 }
 
 form span {

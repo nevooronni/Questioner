@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--stylesheet-->
+    <link href="../../css/meetups/meetups.css" rel="stylesheet" type="text/css">
+    
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--navbar-->
+    <div id="jumbotron">
+        <a href="../index.html"><h2 id="Q"><span>Q</span>uestioner</h2></a>
+      <h3 id="adminq">Admin</h3>
+      <img src="../../img/reddeadredemption.jpg" alt="avatar" />
+      <div class="center">
+        <p>Checkout all the upcoming events below</p>
+        <h1>Where Thinkers Meet Up</h1>
+        <hr>
+        <!-- The Modal -->
+          <button id="myBtn">Create Meetup</button>
+
+          <div id="myModal" class="modal">
+
+            <div class="modal-content">
+              <form action="#">
+                
+                <div class="container">
+                  <span onclick="document.getElementById('id01').style.display='none'" 
+                    class="w3-button w3-display-topright" id="ido1">&times;</span>
+                  
+                   
+                  <input type="text" placeholder="Title" name="title" required>
+
+                  <input type="text" placeholder="Description" name="description" required>
+
+                  <input type="datetime-local" placeholder="Datetime" name="time">
+
+                  <input type="text" placeholder="Venue" name="venue" required>
+
+                  <div class="clearfix">
+                    <a href="../meetups/meetups.html"><button type="submit" id="signupbtn2">Create Meetup</button></a>
+                  </div>
+                </div>
+              </form> 
+            </div>
+
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
