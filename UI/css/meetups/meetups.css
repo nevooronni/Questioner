@@ -147,6 +147,7 @@ body {
   width: 40px;
   border-radius: 50%;
   margin-right: 5%;
+  border: 2px solid #00c1c1
 }
 
 .details p {
@@ -269,7 +270,7 @@ body {
   color: green;
 }
 
-input[type=text], input[type=datetime-local], input[type=password] {
+input[type=text], input[type=datetime-local], textarea, input[type=password] {
   width: 85%;
   padding: 15px;
   margin: 5px 0 22px 7.5%;
@@ -281,7 +282,7 @@ input[type=text], input[type=datetime-local], input[type=password] {
   background: transparent;
 }
 
-input[type=text]:focus, input[type=datetime-local], input[type=password]:focus {
+input[type=text]:focus, input[type=datetime-local], textarea, input[type=password]:focus {
   outline: none;
 }
 
@@ -321,11 +322,16 @@ form input {
 
 #signupbtn2 {
   background-color: #e7015e;
-  border: #e7015e; 
+  border: 2px solid #e7015e; 
   color: #ffffff;
   position: relative;
   top: 1%;
   left: 33.3%;
+}
+
+#signupbtn2:hover {
+  background-color: #2d6ff7;
+  border: 2px solid #2d6ff7; 
 }
 
 form span {
@@ -348,6 +354,15 @@ form span {
   #jumbotron {
     height: 350px;
 
+  }
+
+  #signupbtn2 {
+    width: 100%;
+    left: 3%;
+  }
+
+  .modal-content {
+    width: 80%;
   }
 
   .center {
@@ -376,6 +391,11 @@ form span {
   .center button {
     left: 38.5%;
   }
+
+  #signupbtn2 {
+    width: 100%;
+    left: 3%;
+  }
 }
 
 @media only screen and (min-width:769px) and (max-width: 1024px){
@@ -385,6 +405,11 @@ form span {
 
   .center button {
     left: 41.5%;
+  }
+
+  #signupbtn2 {
+    width: 100%;
+    left: 3%;
   }
 }
 
