@@ -138,6 +138,7 @@ body {
 
 .details {
   height: 50%;
+  margin-top: 6%;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -338,6 +339,21 @@ form span {
   float: right; 
   cursor: pointer; 
 
+}
+
+#card-header {
+  display: inline;
+}
+
+#trash {
+  color: rgba(46,62,72,.6);
+  font-size: 17px;
+  display: inline;
+  margin-left: 2%;
+}
+
+#trash:hover {
+  color: #e7015e;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 619px){

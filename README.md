@@ -12,7 +12,7 @@ Question is a crowd sourcing app for meetups, it allows the meetup organizer to 
 
 This project is managed by pivotal tracker board. [view the board here](https://www.pivotaltracker.com/n/projects/2235272)
 
-The site is published [here]()
+The site is published [here](https://nevooronni.github.io/Questioner/UI/html/index.html)
 
 Features
 -------------------------
