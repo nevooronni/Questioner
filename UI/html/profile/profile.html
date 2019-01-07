@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--stylesheet-->
+    <link href="../../css/meetups/meetups.css" rel="stylesheet" type="text/css">
+    <link href="../../css/questions/questions.css" rel="stylesheet" type="text/css">
+    
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  </head>
+  <body>
+       <!--navbar-->
+       <div id="jumbotron2" style="background-image: url('../../img/banner_bg.jpg') !important; height: 300px !important;">
+          <a href="../index.html"><h2 id="Q"><span>Q</span>uestioner</h2></a>
+        <h3 id="adminq">nevooronni</h3>
+        <a href="../profile/profile.html"><img src="../../img/download.png" alt="avatar" /></a>
+        <div class="center">
+          <h1>Profile</h1>
+          <hr>
+          <!-- The Modal -->
+            <button id="myBtn" style="width: auto !important;">Reset Password</button>
+  
+            <div id="myModal" class="modal">
+  
+              <div class="modal-content">
+                <form action="#">
+                  
+                  <div class="container">
+                    <span onclick="document.getElementById('id01').style.display='none'" 
+                      class="w3-button w3-display-topright" id="ido1">&times;</span>
+                    
+                      <input type="password" placeholder="Password" name="psw" required="">
+
+                    <div class="clearfix">
+                      <a href="../meetups/meetups.html"><button type="submit" id="signupbtn2" style="width: auto;">Reset Password</button></a>
+                    </div>
+                  </div>
+                </form> 
+              </div>
+  
+            </div>
+          </div>
+          <div id="meetups-container">
+              <div class="question-div"> 
+                  <div class="row">
+                      <div class="column1" style="background-image: url('../../img/banner_bg.jpg') !important; background-size: cover; height: 200px; padding-top: 3%;">
+                          <img src="../../img/download.png" alt="avatar" id="avatar-img" style="margin-left: 3%;">  
+                          <p style="text-align: center;">nevooronni</p>                    
+                      </div>
+                      <div class="column2" style="background-color:#ffffff; height: 200px; padding-top: 3%;">
+                        <p id="column-p"><span>Details</span></p>
+                        <p id="column-p">Last Updated: Tues, Jan 08, 5.00PM </p>
+                        <i class="far fa-question-circle result" style="color: #ffcf4a; font-weight: bold; margin-top: 1%;"><span style="color:#ffcf4a;"> 6 Questions</span></i>
+                        <i class="fas fa-comments result" style="color:#00a3ee"><span style="color:#00a3ee"> 3 Comments</span></i>                        
+                      </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+    <!--custom javascript-->
+    <script src="../../js/script.js" ></script>   
+  </body>
+</html>
